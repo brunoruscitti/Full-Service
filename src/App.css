@@ -1,0 +1,26 @@
+body {
+  overflow-x: hidden;
+  background-image: url("./assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: 25vh;
+  background-color: #ee223b;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: local("Futura"), url(../src/assets/fonts/Futura.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLight";
+  src: local("HelveticaNeueLight"),
+    url(../src/assets/fonts/HelveticaNeueLight.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeueBold";
+  src: local("HelveticaNeueBold"),
+    url(../src/assets/fonts/HelveticaNeueBold.otf) format("truetype");
+}
